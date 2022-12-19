@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lek01_HelloWorld/Lek01_HelloWorld.iml" filepath="$PROJECT_DIR$/Lek01_HelloWorld/Lek01_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek02_Opgaver/Lek02_Opgaver.iml" filepath="$PROJECT_DIR$/Lek02_Opgaver/Lek02_Opgaver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek03_AnvendelseAfObjekter/Lek03_AnvendelseAfObjekter.iml" filepath="$PROJECT_DIR$/Lek03_AnvendelseAfObjekter/Lek03_AnvendelseAfObjekter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek04_Klasser/Lek04_Klasser.iml" filepath="$PROJECT_DIR$/Lek04_Klasser/Lek04_Klasser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek05_Datatyper/Lek05_Datatyper.iml" filepath="$PROJECT_DIR$/Lek05_Datatyper/Lek05_Datatyper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek06_SelektionIfStatements/Lek06_SelektionIfStatements.iml" filepath="$PROJECT_DIR$/Lek06_SelektionIfStatements/Lek06_SelektionIfStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek07_BegreberOgOpsamling/Lek07_BegreberOgOpsamling.iml" filepath="$PROJECT_DIR$/Lek07_BegreberOgOpsamling/Lek07_BegreberOgOpsamling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek08_WhileLoops/Lek08_WhileLoops.iml" filepath="$PROJECT_DIR$/Lek08_WhileLoops/Lek08_WhileLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek09_IterationForLoekker/Lek09_IterationForLoekker.iml" filepath="$PROJECT_DIR$/Lek09_IterationForLoekker/Lek09_IterationForLoekker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek12_Arrays/Lek12_Arrays.iml" filepath="$PROJECT_DIR$/Lek12_Arrays/Lek12_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek13_ArrayLists/Lek13_ArrayLists.iml" filepath="$PROJECT_DIR$/Lek13_ArrayLists/Lek13_ArrayLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek14_MultiDimensionalArray/Lek14_MultiDimensionalArray.iml" filepath="$PROJECT_DIR$/Lek14_MultiDimensionalArray/Lek14_MultiDimensionalArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek15_UserInterface/Lek15_UserInterface.iml" filepath="$PROJECT_DIR$/Lek15_UserInterface/Lek15_UserInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek16_UserInterface2/Lek16_UserInterface2.iml" filepath="$PROJECT_DIR$/Lek16_UserInterface2/Lek16_UserInterface2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek17_Specifications/Lek17_Specifications.iml" filepath="$PROJECT_DIR$/Lek17_Specifications/Lek17_Specifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek17_Specifikationer/Lek17_Specifikationer.iml" filepath="$PROJECT_DIR$/Lek17_Specifikationer/Lek17_Specifikationer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek23_Enumeration/Lek23_Enumeration.iml" filepath="$PROJECT_DIR$/Lek23_Enumeration/Lek23_Enumeration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek27_Nedarvning/Lek27_Nedarvning.iml" filepath="$PROJECT_DIR$/Lek27_Nedarvning/Lek27_Nedarvning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek28_AbstrakteKlasser/Lek28_AbstrakteKlasser.iml" filepath="$PROJECT_DIR$/Lek28_AbstrakteKlasser/Lek28_AbstrakteKlasser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek29_Interfaces/Lek29_Interfaces.iml" filepath="$PROJECT_DIR$/Lek29_Interfaces/Lek29_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek30_Soegning/Lek30_Soegning.iml" filepath="$PROJECT_DIR$/Lek30_Soegning/Lek30_Soegning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek31_Sortering/Lek31_Sortering.iml" filepath="$PROJECT_DIR$/Lek31_Sortering/Lek31_Sortering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek32_AlgorimerISorteretSekvens/Lek32_AlgorimerISorteretSekvens.iml" filepath="$PROJECT_DIR$/Lek32_AlgorimerISorteretSekvens/Lek32_AlgorimerISorteretSekvens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek33_ExceptionsOgTekstfiler/Lek33_ExceptionsOgTekstfiler.iml" filepath="$PROJECT_DIR$/Lek33_ExceptionsOgTekstfiler/Lek33_ExceptionsOgTekstfiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lek34_Fletninger/Lek34_Fletninger.iml" filepath="$PROJECT_DIR$/Lek34_Fletninger/Lek34_Fletninger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmering.iml" filepath="$PROJECT_DIR$/Programmering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt1_AlgoritmerDie/Projekt1_AlgoritmerDie.iml" filepath="$PROJECT_DIR$/Projekt1_AlgoritmerDie/Projekt1_AlgoritmerDie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt2_FravaersSystem/Projekt2_FravaersSystem.iml" filepath="$PROJECT_DIR$/Projekt2_FravaersSystem/Projekt2_FravaersSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt4_Tvaerfagligt/Projekt4_Tvaerfagligt.iml" filepath="$PROJECT_DIR$/Projekt4_Tvaerfagligt/Projekt4_Tvaerfagligt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semesterproeve_Januar2020/Semesterproeve_Januar2020.iml" filepath="$PROJECT_DIR$/Semesterproeve_Januar2020/Semesterproeve_Januar2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semesterproeve_Parkeringshus/Semesterproeve_Parkeringshus.iml" filepath="$PROJECT_DIR$/Semesterproeve_Parkeringshus/Semesterproeve_Parkeringshus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test01/Test01.iml" filepath="$PROJECT_DIR$/Test01/Test01.iml" />
+    </modules>
+  </component>
+</project>
