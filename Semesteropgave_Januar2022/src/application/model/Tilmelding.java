@@ -86,10 +86,12 @@ public class Tilmelding implements Comparable<Tilmelding> {
 
     @Override
     public int compareTo(Tilmelding o) {
+        int comp = kvinde != o.kvinde ? 1 : 0;
+
         // Dette er ikke rigtigt
-        if (kvinde == o.kvinde) {
+        if (comp == 0) {
             return resultatTid() - o.resultatTid();
         }
-        return 0;
+        return comp;
     }
 }
