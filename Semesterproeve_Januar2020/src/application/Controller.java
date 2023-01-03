@@ -101,7 +101,9 @@ public class Controller {
         tagVagt(festival.getJobs().get(8), christianMadsen, 5);
 
         ArrayList<String> gaver = festival.gaverTilFrivillige();
-        System.out.println(gaver);
+        for (String person : gaver) {
+            System.out.println(person);
+        }
 
         System.out.println("Find frivillige Lone Hansen");
         System.out.println("Expected: true");

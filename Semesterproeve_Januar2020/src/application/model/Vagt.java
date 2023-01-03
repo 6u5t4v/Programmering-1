@@ -10,6 +10,7 @@ public class Vagt {
     public Vagt(int timer, Frivillig frivillig, Job job) {
         this.timer = timer;
         this.frivillig = frivillig;
+        frivillig.addVagt(this);
         this.job = job;
     }
 
