@@ -32,9 +32,7 @@ public class Tilmelding implements Comparable<Tilmelding> {
 
     public void registrerStrafPåForhindring(String navnForhindring, int strafSekunder) {
         Forhindring forhindring = løb.findForhindring(navnForhindring);
-        if (forhindring != null) {
-            createNote(strafSekunder, forhindring);
-        }
+        createNote(strafSekunder, forhindring);
     }
 
     public Note createNote(int strafSekunder, Forhindring forhindring) {
