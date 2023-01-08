@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.ArrayList;
 
 public class Controller {
     public static Funktion createFunktion(String navn) {
@@ -42,8 +43,12 @@ public class Controller {
         }
     }
 
-    public static void tilføjVagt(Medarbejder medarbejder, Vagt vagt) {
-        medarbejder.addVagt(vagt);
+    public static void tilføjVagt(Medarbejder medarbejder, Vagt vagt) throws RuntimeException {
+        try {
+            medarbejder.addVagt(vagt);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void udskrivVagtPlan(Vagt vagt, String filNavn) {
@@ -83,6 +88,14 @@ public class Controller {
         vagt.createAntal(antal, funktion);
     }
 
+    public static ArrayList<Medarbejder> getAlleMedarbejdere() {
+        return Storage.getMedarbejdere();
+    }
+
+    public static ArrayList<Vagt> getAlleVagter() {
+        return Storage.getVagter();
+    }
+
     public static void initStorage() {
         Funktion filetering = createFunktion("Filetering");
         Funktion grønsager = createFunktion("Grønsager");
@@ -96,6 +109,7 @@ public class Controller {
 
         LocalDateTime vagtDato = LocalDateTime.of(2022, 6, 24, 8, 0);
         Vagt vagt = createVagt("Røgede ål til medarbejderne", vagtDato, vagtDato.withHour(12).withMinute(30));
+        Vagt sommerfest = createVagt("Sommerfest", vagtDato, vagtDato.withHour(12).withMinute(30));
 
         createAntal(vagt, 2, filetering);
         createAntal(vagt, 1, grønsager);

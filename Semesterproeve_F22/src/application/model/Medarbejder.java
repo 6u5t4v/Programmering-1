@@ -76,4 +76,9 @@ public class Medarbejder {
     public LocalTime getTypiskMødetid() {
         return typiskMødetid;
     }
+
+    @Override
+    public String toString() {
+        return navn + ", Typisk mødetid: " + typiskMødetid;
+    }
 }

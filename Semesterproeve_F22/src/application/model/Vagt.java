@@ -129,4 +129,23 @@ public class Vagt {
     public LocalDateTime getTidTil() {
         return tidTil;
     }
+
+    public String description() {
+        StringBuilder desc = new StringBuilder("Navn: " + navn + "\n" +
+                "Fra: " + tidFra + "\n" +
+                "Til: " + tidTil + "\n" +
+                "Status: " + status() + "\n" +
+                "Tilknyttede medarbejdere: \n");
+
+        for (Medarbejder medarbejder : medarbejdere) {
+            desc.append(medarbejder.getNavn()).append(" ");
+        }
+
+        return desc.toString();
+    }
+
+    @Override
+    public String toString() {
+        return navn;
+    }
 }
